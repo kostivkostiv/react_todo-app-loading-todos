@@ -28,7 +28,7 @@ export const Footer: React.FC<Props> = ({ todos, filterBy, setFilterBy }) => {
               selected: filterBy === filterValue,
             })}
             data-cy={`FilterLink${filterValue}`}
-            onClick={() => setFilterBy(filterValue)} // setFilterBy приймає значення Filterby
+            onClick={() => setFilterBy(filterValue)}
           >
             {filterValue}
           </a>
